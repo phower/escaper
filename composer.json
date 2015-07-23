@@ -27,5 +27,13 @@
             "email": "pedro@phower.com"
         }
     ],
-    "minimum-stability": "stable"
+    "support": {
+        "issues": "https://github.com/phower/escaper/issues"
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.x"
+        }
+    }
 }
