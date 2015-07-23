@@ -1,0 +1,31 @@
+{
+    "name": "phower/escaper",
+    "description": "A PHP class which offers a way to escape output and defend from XSS and related vulnerabilities by introducing HTML, CSS and Javascript escaping context.",
+    "homepage": "https://github.com/phower/escaper",
+    "type": "library",
+    "require": {
+        "php": "^5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.7"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "autoload-dev": {
+        "classmap-dev": [
+            "test/"
+        ]
+
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pedro Brazao Ferreira",
+            "email": "pedro@phower.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
